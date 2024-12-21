@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portal de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Bienvenido</a></li>
+            <li><a href="#juegos_favoritos">Juegos Favoritos</a></li>
+            <li><a href="#acerca_de">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h1>Bienvenido a mi Portal de Videojuegos🎮</h1>
+        <p>Hola, mi nombre es Moisés Iván González González y este es mi portal sobre videojuegos en donde encontrarás mis juegos favoritos y una pequeña reseña de estos.</p>
+        <p>Desde niño he estado en contacto con ellos, mis hermanos jugaban Gears of War y en una noche se me dió la oportunidad de probarlo y desde entonces ya han pasado más de 16 años desde que los frecuento, algunos dejan lecciones y otros solo son divertidos, pero al final depende de ti y qué tomes de ellos, disfruta el portal.🙂</p>
+    </section>
+
+<!-- Sección Juegos Favoritos -->
+<section id="juegos_favoritos">
+    <h2>Mis Juegos Favoritos</h2>
+    <p>Aquí te dejo una lista de mis videojuegos favoritos que considero que todo gamer debe probar:</p>
+        <!-- Contenedor de imagen grande -->
+        <div id="imagen_principal">
+            <img src="assets/GOW.jpeg" alt="Gears of War" id="imagen_grande">
+        </div>
+    
+    <ul>
+        <li>
+    
+            <img src="assets/GOW.jpeg" alt="Gears of War"class="miniatura">
+            <strong>Gears Of War</strong>: Una franquicia de juegos de disparos en tercera persona conocida por su jugabilidad brutal y su historia emocionante en donde conoceremos la histore de Sera, planeta de nuestros heroes Gears y descubriremos más sobre nuestros enemigos los locust, su objetivo y su brutalidad .
+        </li>
+        <li>
+            <img src="assets/cod.jpeg" alt="Call of Duty"class="miniatura">
+            <strong>Call Of Duty</strong>: Un icónico juego de disparos en primera persona, famoso por su acción intensa y su modo multijugador competitivo con un apartado extra llamado zombies que explora una historia compleja y misteriosa, pero emocionante con armas unicas e iconicas.
+        </li>
+        <li>
+            <img src="assets/tlou.jpeg" alt="The Last of Us"class="miniatura">
+            <strong>The Last of Us</strong>: Un juego de aventura y supervivencia con una historia emotiva y personajes profundamente desarrollados donde  el sigilo y tu control sobre tus recursos decidirá tu forma de combatir a los chasqueadores y humanos.
+        </li>
+        <li>
+            <img src="assets/ratchet.jpeg" alt="Ratchet & Clank"class="miniatura">
+            <strong>Ratchet & Clank</strong>: Un juego de plataformas y acción con gráficos impresionantes, humor y mecánicas únicas de armas y gadgets, sus rompecabezas, sus secretos que desbloquean modificadores unicos que te servirán durante tu partida son de lo mejor y con unnapartado visual increbile hacen que jugarlo sea como jugar dentro de una pelicula.
+        </li>
+    </ul>
+</section>
+
+
+    <!-- Sección Acerca de -->
+    <section id="acerca_de">
+        <h2>Acerca de este Portal</h2>
+        <p>Este portal fue creado para ofrecer a los fanáticos y no tan fanáticos de los videojuegos un par de reseñas de mis juegos favoritos y ver si te interesa probar alguno de estos juegos mencionados.</p>
+        <p>Además, puede servir para compartir experiencias, comentarios o incluso consejos sobre videojuegos como una comunidad, por eso ponemos a disposición el formulario de contacto para recibir preguntas, sugerencias y comentarios.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta, sugerencia o comentario, no dudes en enviar un mensaje.</p>
+
+        <!-- Formulario de contacto -->
+        <form action="mailto:ronal_bo3@hotmail.com" method="post" enctype="text/plain">
+            <label for="nombre">Tu Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Tu Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Tu Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+
+        <!-- Correo visible para contacto directo -->
+        <p>También puedes enviarnos tus comentarios o preguntas directamente a nuestro correo: <a href="mailto:ronal_bo3@hotmail.com">ronal_bo3@hotmail.com</a></p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Portal de Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
